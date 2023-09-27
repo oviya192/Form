@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="online-registration.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   
+    <header>
+        <div class="container p-0">
+            <h4 class="text-center bg-primary text-white py-2 mt-3 m-0 rounded-top-1">Register</h4>
+        </div>
+    </header>
+
+    <main class="m-0 p-0">
+        <div class="container mt-0 border">
+            <div class="row p-3 g-3">
+                <div class="col-md-6">
+                    <i class="fa-solid fa-user" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-user" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-user" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="User Name">
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-phone" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="col-12">
+                    <i class="fa-solid fa-envelope" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Your E-mail Address">
+                </div>
+                <div class="col-md-6">
+                    <select name="gender" id="gender" class="form-select ">
+                        <option value="1">Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Transgender</option>
+
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-cake-candles" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Date of Birth" >
+                </div>
+                <div class="col-md-6">
+                    <select name="gender" id="gender" class="form-select ">
+                        <option value="1">Country</option>
+                        <option value="">India</option>
+                        <option value="">America</option>
+                        <option value="">China</option>
+                    </select>
+                </div>
+
+                <div class="company col-md-6">
+                    <input type="text" class="you form-control"  id="you" placeholder="Your Company's Name" >
+                </div>
+                <div class="form-floting col-md-6">
+                    <i class="fa-solid fa-person" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <textarea class="form-control" id="flotingTetArea" class="border"  placeholder="Home Address" style="height: 80px; width: 100%;"></textarea>
+                </div>
+                <div class=" form-floting col-md-6">
+                    <i class="fa-solid fa-person" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <textarea class="form-control" id="flotingTetArea" class="border" placeholder="Office Address" style="height: 80px; width: 100%;"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-lock" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Password">
+                </div>
+                <div class="col-md-6">
+                    <i class="fa-solid fa-lock" style="color: #aaadb1; position: absolute;margin-top: 10px; margin-left: 10px;"></i>
+                    <input type="text" class="form-control" placeholder="Confirm Password">
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column gap-2">
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label for="terms" class="form-label">I agree with the terms & Condition</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="form-check-input">
+                            <label for="terms" class="form-label">Receive best offers and Updates</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto text-center">
+                    <button class="btn btn-primary w-50 mx-auto">Register</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class=" container text-center border">
+            <p class="mt-2">Already have an account? <span>Login</span></p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

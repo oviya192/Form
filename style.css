@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Tinos', serif;
+}
+
+
+input[type=text] {
+    padding-left: 30px;
+}
+
+.company .form-control{
+    padding-left:5px;
+}
+
+.form-floting .form-control{
+    padding-left:1.5rem;
+}
+
+
+.fa-solid{
+    color: #aaadb1;
+     position: absolute;
+     margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer span{
+    color:#0D6EFD;
+    cursor: pointer;
+    text-decoration: underline;
+}
